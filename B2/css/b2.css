@@ -1,0 +1,118 @@
+/*
+All font converted to em values
+all horizontal widths and box model properties converted to percentages and em values
+all media is set to be scalable
+media queries located at the bottom of the stylesheet
+five media queries created with adequate styles within
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+p{
+	color: #FFFFFF;
+}
+body {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 960px;
+    font: 100%/1.5 Arial, Helvetica, Helvetica Neue, sans-serif;
+    background: #181818;
+}
+#content-wrapper{
+    margin: .020833% auto; /*20px*/
+    background: #484848;
+    clear: both;
+}
+h1, h2, h3{
+    color: #FF0000;
+    font-family: 'Kaushan Script', cursive;
+    margin: 0;
+    padding: .041666% .020833% 0 .020833%;/*15 20 0 20px*/
+}
+h1{
+    font-size: 2.50em; /*40px*/
+    float: left;
+    margin-bottom: .010416%;/*10px*/
+    color: #FFFFFF;
+}
+#navlinks li{
+    margin: 1.0416%;/*10px*/
+    list-style-type: none;
+    float: right;
+	color: #FF0000;
+}
+#navlinks ul{
+    clear: both;
+}
+#mice, #miss{
+    width: 43.4782%;/*400px*/
+    float: left;
+    margin: 2.71739%;/*25px*/
+}
+img{
+    float: left;
+    margin: 2.08333%;/*20px*/
+    max-width: 95%;
+}
+#ships{
+    clear: both;
+}
+#ships img{
+    float: right;
+}
+
+#footer{
+    clear: both;
+}
+#content-wrapper{
+    padding: 1.0416%;/*10px*/
+    margin: 1.0416%;/*10px*/
+}
+footer{
+    background: #686868;
+    text-align:center;
+}
+img{
+    max-height: 100%;
+}
+
+
+@media screen and (min-width: 915px) and (max-width: 959px){
+    #content-wrapper p{
+        font-size: 0.875em;
+    }
+}
+@media screen and (min-width: 724px) and (max-width: 914px){
+    #content-wrapper p{
+        font-size: 0.875em;
+    }
+    h2, h3{
+        font-size: 1.25em;
+    }
+    h1{
+        font-size: 2.25em;
+    }
+    #navlinks{
+        font-size: 0.875em;
+    }
+}
+@media screen and (min-width: 724px) and (max-width: 914px){
+    #content-wrapper p{
+        font-size: 0.875em;
+    }
+    h2, h3{
+        font-size: 1.25em ;
+    }
+    h1{
+        font-size: 2.25em;
+    }
+    #miss{
+        clear: both;
+        width: 90%;
+    }
+    #attila{
+        width: 90%;
+    }
+}

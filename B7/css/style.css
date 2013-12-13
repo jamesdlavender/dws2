@@ -1,0 +1,109 @@
+
+
+body{
+	background-color:#181818;
+	font-family: 'Electrolize', sans-serif;
+	color:#FFFFFF;
+	font-size:0.875em;
+	max-width:960px;
+	font-weight:500;
+	margin:0 auto;
+}
+
+
+.container{
+	width:100%;
+	margin:200px auto 200px auto;
+	border:1px solid #080808;
+	border-radius:3px;
+	height:100%;
+	
+	
+
+}
+
+header{
+	background-color:#080808;
+	color:#fff;
+	padding:15px;
+	font-size:1.25em;
+}
+
+.form1{
+	background-color:#282828;
+	padding:25px;
+	height:100%;
+
+}
+
+.form{margin:0 0 15px} 
+
+
+.input,.select{
+	display:block;
+	width:95%;
+	height:28px;
+	padding:8px 12px;
+	margin-bottom:10px;
+	font-size:14px;
+	line-height:1.428571429;
+	color:#fff;
+	vertical-align:middle;
+	background-color:#181818;
+	border:1px solid #080808;
+	box-shadow:inset 0 1px 1px rgba(0,0,0,0.075)}
+
+.month {
+  display: inline-block;
+  width: 45px;
+}
+.day {
+  display: inline-block;
+  width: 45px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.day.year {
+  width: 60px;
+  margin-left: 0px;
+}
+
+
+
+.input:-moz-placeholder,.select:-moz-placeholder{color:#999} 
+
+.input::-moz-placeholder,.select::-moz-placeholder{color:#999} 
+
+.input:-ms-input-placeholder,.select:-ms-input-placeholder{color:#999} 
+
+.input::-webkit-input-placeholder,.select::-webkit-input-placeholder{color:#999} 
+
+.input:focus,.select:focus{
+	border-color:rgba(150,1,244,0.8);
+	outline:0;
+	box-shadow:inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(244,83,85,0.6)} 
+
+
+
+.select{
+	
+	background-color:#383838} 
+
+
+textarea.input,textarea.select{height:auto} 
+.select[multiple]{
+	height:auto} 
+
+.button{
+	border-radius:5px;
+	display:inline-block;
+	padding:12px;
+	background-color:#484848;
+	color:white;
+	border:0;
+	line-height:inherit}
+
+	.button:hover{
+		background-color:#dc4b4d;
+	}
+

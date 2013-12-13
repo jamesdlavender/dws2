@@ -1,0 +1,404 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+
+body {
+	font-family: 'Electrolize', sans-serif;
+	font-size:100%;
+	color:#fff;
+	max-width:960px;
+	margin:0 auto;
+	background-color:#181818;
+	
+
+	
+}
+
+/* Global */
+
+h1 {
+	font-size:1.275em;
+	color:#fff;
+	font-weight:300;
+	text-align:left;
+	padding-bottom:1.0416667%; /* 10px */
+}
+
+h2 {
+	font-size:1.125em;
+	color:#fff;
+	font-weight:300;
+	text-align:center;
+}
+
+p {
+	font-size:1em;
+	color:#fff;
+	font-weight:300;
+	line-height:1.250em;
+	text-align:left;
+}
+
+a{
+	color:#fff;
+	text-decoration:none;
+}
+
+
+a:hover{
+	color:#067072;
+	text-decoration:none;
+}
+
+floatRight {
+	float:right;
+}
+
+floatLeft{
+	float:left;
+}
+
+figure {
+	display:inline-block;
+	max-width:100%;
+}
+
+figcaption{
+	text-align:center;
+	max-width:100%;
+	
+}
+
+strong + em {
+	color:#000;
+	font-weight:400;
+}
+/* End Global */
+
+div#container{
+	position:relative;
+	width:100%;
+	height:950px;
+	background-color:#282828;
+	border-top:3px solid #383838;
+	border-bottom:3px solid #383838;
+	padding:0.938em;
+
+}
+
+
+header{
+	width:100%;
+	background-color:#14a589;
+	height:auto;
+	padding-bottom:1%;
+}
+
+div#container p{
+	padding-top:1.0416667%; /* 10px */
+	color:#fff;
+}
+
+div#first{
+	position:absolute;
+	top:150px;
+	left:10px;
+	width:29.20833333%;
+	padding:15px;
+	background-color:#181818;
+
+}
+
+div#first h1{
+	color:#fff;
+}
+
+div#second{
+	position:absolute;
+	top:150px;
+	left:335px;
+	width:29.20833333%;
+	padding:15px;
+	background-color:#181818;
+
+}
+
+div#second h1{
+	color:#fff;
+}
+
+div#third{
+	position:absolute;
+	top:150px;
+	left:660px;
+	width:29.20833333%;
+	padding:15px;
+	background-color:#181818;
+	
+
+}
+
+div#third h1{
+	color:#fff;
+}
+
+div#fourth{
+	position:absolute;
+	top:450px;
+	left:10px;
+	width:94.91666667%;
+	padding:15px;
+	background-color:#181818;
+	
+
+}
+div#fourth h1{
+	color:#fff;
+	
+
+}
+div#fifth{
+	position:absolute;
+	top:605px;
+	left:10px;
+	width:45.4583333335%;
+	padding:15px;
+	background-color:#181818;
+	
+
+}
+
+div#sixth{
+	position:absolute;
+	top:605px;
+	left:50.5%;
+	width:45.4583333335%;
+	padding:15px;
+	background-color:#181818;
+	
+
+}
+
+footer{
+	position:absolute;
+	width:97.41666667%;
+	top:805px;
+	left:10px;
+	border:3px solid #383838;
+}
+
+footer p{
+	padding:10px;
+	text-align:center;
+}
+
+
+
+
+
+/*=============================MEDIA QUEREIES======================================*/
+
+@media screen and (min-width:768px) and (max-width:959px){
+	div#container{
+		height:auto;
+	}
+
+	div#first{
+		display:block;
+		width:auto;
+		margin-right:0;
+
+	}
+
+	div#second{
+		display:block;
+		width:auto;
+		
+		top:320px;
+		left:10px;
+	}
+	div#third{
+		display:block;
+		width:auto;
+		margin-right:0;
+		top:490px;
+		left:10px;
+	}
+
+	div#fourth{
+		display:block;
+		width:auto;
+		margin-right:0;
+		top:660px;
+		left:10px;
+	
+	}
+
+	div#fifth{
+		display:block;
+		width:auto;
+		margin-right:0;
+		top:830px;
+		left:10px;
+	
+	}
+
+	div#sixth{
+		display:block;
+		width:auto;
+		margin-right:0;
+		top:960px;
+		left:10px;
+	
+	}
+
+	footer{
+		top:1100px;
+	}
+
+
+
+
+
+
+
+}
+
+
+@media only screen and (min-width:480px) and (max-width:767px) {
+
+		div#container{
+		height:auto;
+	}
+
+	div#first{
+		display:block;
+		width:auto;
+		margin-right:0;
+
+	}
+
+	div#second{
+		display:block;
+		width:auto;
+		
+		top:330px;
+		left:10px;
+	}
+	div#third{
+		display:block;
+		width:auto;
+		margin-right:0;
+		top:510px;
+		left:10px;
+	}
+
+	div#fourth{
+		display:block;
+		width:auto;
+		margin-right:0;
+		top:690px;
+		left:10px;
+	
+	}
+
+	div#fifth{
+		display:block;
+		width:auto;
+		margin-right:0;
+		top:870px;
+		left:10px;
+	
+	}
+
+	div#sixth{
+		display:block;
+		width:auto;
+		margin-right:0;
+		top:1010px;
+		left:10px;
+	
+	}
+
+	footer{
+		top:1200px;
+	}
+
+
+	
+
+
+}
+
+
+@media only screen and (max-width:479px) {
+
+			div#container{
+		height:auto;
+	}
+
+	div#first{
+		display:block;
+		width:auto;
+		margin-right:0;
+
+	}
+
+	div#second{
+		display:block;
+		width:auto;
+		
+		top:330px;
+		left:10px;
+	}
+	div#third{
+		display:block;
+		width:auto;
+		margin-right:0;
+		top:510px;
+		left:10px;
+	}
+
+	div#fourth{
+		display:block;
+		width:auto;
+		margin-right:0;
+		top:690px;
+		left:10px;
+	
+	}
+
+	div#fifth{
+		display:block;
+		width:auto;
+		margin-right:0;
+		top:870px;
+		left:10px;
+	
+	}
+
+	div#sixth{
+		display:block;
+		width:auto;
+		margin-right:0;
+		top:1010px;
+		left:10px;
+	
+	}
+
+	footer{
+		top:1200px;
+	}
+
+
+
+	
+
+
+
+}
+
+
+
